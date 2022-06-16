@@ -1,3 +1,10 @@
+# instalações necessarias para rodar a aplicação
+npm install -g @angular/cli
+npm install angular-material
+
+Para Rodar a Aplicação - CRUD.
+npm start
+
 # Atividade_Delta_Tecnologia_GridUsers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
