@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/atividade-backend-delta'),
+      dir: require('path').join(__dirname, './coverage/crud-dio-angular'),
       subdir: '.',
       reporters: [
         { type: 'html' },

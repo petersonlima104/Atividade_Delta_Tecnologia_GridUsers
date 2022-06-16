@@ -3,9 +3,13 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Atividade_Backend_Delta": {
+    "crud-dio-angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/atividade-backend-delta",
+            "outputPath": "dist/crud-dio-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Atividade_Backend_Delta:build:production"
+              "browserTarget": "crud-dio-angular:build:production"
             },
             "development": {
-              "browserTarget": "Atividade_Backend_Delta:build:development"
+              "browserTarget": "crud-dio-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Atividade_Backend_Delta:build"
+            "browserTarget": "crud-dio-angular:build"
           }
         },
         "test": {
@@ -101,7 +105,5 @@
       }
     }
   },
-  "cli": {
-    "analytics": "62bc283b-07c9-4f92-8e53-1296b4b3f730"
-  }
+  "defaultProject": "crud-dio-angular"
 }
