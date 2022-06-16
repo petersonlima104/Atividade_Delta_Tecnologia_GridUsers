@@ -1,4 +1,4 @@
-# instalações necessarias para rodar a aplicação
+## instalações necessarias para rodar a aplicação
 npm install -g @angular/cli
 npm install angular-material
 
