@@ -79,4 +79,8 @@ export class UserFormComponent implements OnInit {
       this.createUser()
     }
   }
+
+  cancelar() {
+    this.router.navigate(['/']);
+  }
 }
